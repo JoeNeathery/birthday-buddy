@@ -12,7 +12,7 @@ export class Login extends React.Component {
             <div className="base-container" ref={this.props.containerRef}>
                 <div className="content">
                     <div className="image">
-                        <img src={loginImg} />
+                        <img src={loginImg} alt="Login"/>
                     </div>
                     <div className="form">
                         <div className="form-group">
