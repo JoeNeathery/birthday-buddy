@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a8b5cfcbb3aec851f6cbb2e4fc58676",
+    "revision": "bdd394ab8b38f3b479acc3eaf5bc621f",
     "url": "/birthday-buddy/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/birthday-buddy/static/css/2.a1b7a17e.chunk.css"
   },
   {
-    "revision": "a8d615bc0a3f05c9e0f8",
+    "revision": "d7a4a7fd62234b3a7f44",
     "url": "/birthday-buddy/static/css/main.825a1045.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/birthday-buddy/static/js/2.2a4da0fe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a8d615bc0a3f05c9e0f8",
-    "url": "/birthday-buddy/static/js/main.c7fb82d0.chunk.js"
+    "revision": "d7a4a7fd62234b3a7f44",
+    "url": "/birthday-buddy/static/js/main.c689d695.chunk.js"
   },
   {
     "revision": "8b68bc7db82cbf1b5772",
