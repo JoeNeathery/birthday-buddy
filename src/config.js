@@ -1,7 +1,7 @@
 var config = {
     production: {
         server: {
-            host: "http://52.87.42.240:3600",
+            host: "https://52.87.42.240:3600",
             port: 3600
         }
     },
