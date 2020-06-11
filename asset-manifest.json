@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/birthday-buddy/static/css/main.825a1045.chunk.css",
-    "main.js": "/birthday-buddy/static/js/main.f0468035.chunk.js",
-    "main.js.map": "/birthday-buddy/static/js/main.f0468035.chunk.js.map",
+    "main.js": "/birthday-buddy/static/js/main.c7fb82d0.chunk.js",
+    "main.js.map": "/birthday-buddy/static/js/main.c7fb82d0.chunk.js.map",
     "runtime-main.js": "/birthday-buddy/static/js/runtime-main.f09926a1.js",
     "runtime-main.js.map": "/birthday-buddy/static/js/runtime-main.f09926a1.js.map",
     "static/css/2.a1b7a17e.chunk.css": "/birthday-buddy/static/css/2.a1b7a17e.chunk.css",
     "static/js/2.2a4da0fe.chunk.js": "/birthday-buddy/static/js/2.2a4da0fe.chunk.js",
     "static/js/2.2a4da0fe.chunk.js.map": "/birthday-buddy/static/js/2.2a4da0fe.chunk.js.map",
     "index.html": "/birthday-buddy/index.html",
-    "precache-manifest.1a7a053143330e48cf06e0cb3da38ba7.js": "/birthday-buddy/precache-manifest.1a7a053143330e48cf06e0cb3da38ba7.js",
+    "precache-manifest.404ee9f6849687b65746ba253070b3cb.js": "/birthday-buddy/precache-manifest.404ee9f6849687b65746ba253070b3cb.js",
     "service-worker.js": "/birthday-buddy/service-worker.js",
     "static/css/2.a1b7a17e.chunk.css.map": "/birthday-buddy/static/css/2.a1b7a17e.chunk.css.map",
     "static/css/main.825a1045.chunk.css.map": "/birthday-buddy/static/css/main.825a1045.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.a1b7a17e.chunk.css",
     "static/js/2.2a4da0fe.chunk.js",
     "static/css/main.825a1045.chunk.css",
-    "static/js/main.f0468035.chunk.js"
+    "static/js/main.c7fb82d0.chunk.js"
   ]
 }
