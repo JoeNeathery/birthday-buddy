@@ -2,6 +2,7 @@ import React from 'react';
 import DatePicker from 'react-datepicker';
 import { Button, Modal } from 'react-bootstrap';
 import "react-datepicker/dist/react-datepicker.css";
+var config = require('../../src/config')[process.env.NODE_ENV];
 
 export class Register extends React.Component {
     constructor(props) {
@@ -84,12 +85,6 @@ export class Register extends React.Component {
             }
 
         }
-        // if(this.state["password"] !== null && this.state["confirmPassword"] !== null && this.state["password"].match(/^\s*$/) === null && this.state["confirmPassword"].match(/^\s*$/) === null){
-        //     if(this.state["password"] !== this.state["confirmPassword"]){
-        //         this.setState["errors"] = {"password" : "Passwords Do Not Match."};
-        //         valid = false;
-        //     }
-        // }
 
         return valid;
     }
@@ -120,7 +115,7 @@ export class Register extends React.Component {
         };
         console.log(JSON.stringify(data));
 
-        fetch("http://localhost:3600/users", {
+        fetch(config.host + "/users", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
