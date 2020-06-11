@@ -6,8 +6,10 @@ var config = {
         }
     },
     development: {
-        host: "http://localhost:3600",
-        port: 3600
+        server: {
+            host: "http://localhost:3600",
+            port: 3600
+        }
     }
 }
 

@@ -115,7 +115,7 @@ export class Register extends React.Component {
         };
         console.log(JSON.stringify(data));
 
-        fetch(config.host + "/users", {
+        fetch(config.server.host + "/users", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
