@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "250f7800c18c0ac052815ec3b26d7b6b",
+    "revision": "1af9fbd59a1ebfd29379251eba254127",
     "url": "/birthday-buddy/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/birthday-buddy/static/css/2.a1b7a17e.chunk.css"
   },
   {
-    "revision": "1366be70519e991c7904",
+    "revision": "201f85069e23c4bd1050",
     "url": "/birthday-buddy/static/css/main.fb68e2dc.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/birthday-buddy/static/js/2.3149164f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1366be70519e991c7904",
-    "url": "/birthday-buddy/static/js/main.62a5ec81.chunk.js"
+    "revision": "201f85069e23c4bd1050",
+    "url": "/birthday-buddy/static/js/main.6fad1297.chunk.js"
   },
   {
     "revision": "8b68bc7db82cbf1b5772",
