@@ -1,13 +1,20 @@
 import React from 'react';
 import './App.scss';
-import { Login, Register } from "./components/Index";
+import { Login, Register, Home } from "./components/Index";
 
 class App extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      isLogginActive: true
+      isLogginActive: true,
+      isLoggedIn: false
     };
+
+    this.handleLogin = this.handleLogin.bind(this);
+  }
+
+  handleLogin(loggedIn, authToken) {
+    this.setState({isLoggedIn: loggedIn, token: authToken});
   }
 
   componentDidMount() {
@@ -34,16 +41,18 @@ class App extends React.Component {
   }
 
   render() {
-    const { isLogginActive } = this.state;
+    const isLogginActive = this.state.isLogginActive;
+    const isLoggedIn = this.state.isLoggedIn;
     const current = isLogginActive ? "Register" : "Login";
     const currentActive = isLogginActive ? "login" : "register";
+    let display;
 
-    return (
-      <div className="App">
+    if(!isLoggedIn){
+      display = 
         <div className="login">
           <div className="container" ref={ref => (this.container = ref)}>
             {isLogginActive && (
-              <Login containerRef={ref => (this.current = ref)} />
+              <Login containerRef={ref => (this.current = ref)} parentMethod={this.handleLogin} />
             )}
             {!isLogginActive && (
               <Register containerRef={ref => (this.current = ref)} />
@@ -55,7 +64,17 @@ class App extends React.Component {
             containerRef={ref => (this.rightSide = ref)}
             onClick={this.changeState.bind(this)}
           />
-        </div>
+        </div>;
+    }else{
+      display = 
+        <div className="home">
+          <Home />
+        </div>;
+    }
+
+    return (
+      <div className="App">
+        {display}
       </div>
     );
   } 
@@ -76,3 +95,5 @@ const RightSide = props => {
 }; 
 
 export default App;
+
+

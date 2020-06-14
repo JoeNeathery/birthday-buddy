@@ -113,8 +113,7 @@ export class Register extends React.Component {
             "email": this.state["email"],
             "password": this.state["password"]
         };
-        console.log(JSON.stringify(data));
-
+        
         fetch(config.server.host + "/users", {
             method: "POST",
             headers: {
