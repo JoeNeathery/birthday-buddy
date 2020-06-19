@@ -55,7 +55,7 @@ class App extends React.Component {
               <Login containerRef={ref => (this.current = ref)} parentMethod={this.handleLogin} />
             )}
             {!isLogginActive && (
-              <Register containerRef={ref => (this.current = ref)} />
+              <Register containerRef={ref => (this.current = ref)} parentMethod={this.handleLogin}/>
             )}
           </div>
           <RightSide

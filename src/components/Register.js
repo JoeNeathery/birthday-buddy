@@ -128,7 +128,9 @@ export class Register extends React.Component {
                   this.handleShow();
               }
               else{
-                  //this handle success case 
+                var authToken = "Bearer " + responseJSON["accessToken"];
+                this.props.parentMethod(true, authToken);
+                console.log(responseJSON);
               }
           });
           return;
